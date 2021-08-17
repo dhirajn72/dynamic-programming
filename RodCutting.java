@@ -21,13 +21,13 @@ public class RodCutting{
         return dp[n-1][n];
     }
     public static void main(String[] args){
-        //int[] prices={2,5,7,8,7};
+        int[] prices={2,5,7,8,7};
         //int[] prices={1,5,   8,   9,  10,  17,  17,  20};
         //int[] prices={3  , 5,   8,   9,  10,  17,  17,  20};
         //int[] prices={1, 5, 8, 9, 10, 17, 17, 20};
         //int[] prices={3, 5, 8, 9, 10, 17, 17, 20};
         //int[] prices={2, 3, 7, 8, 10};
-        int[] prices={2 ,7, 8, 25, 17, 28 ,30};
+        //int[] prices={2 ,7, 8, 25, 17, 28 ,30};
         System.out.println(rodCutting(prices));
     }
 }
