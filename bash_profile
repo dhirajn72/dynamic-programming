@@ -32,7 +32,10 @@ export PATH="$PATH:$TERRAFORM_HOME:$GO_HOME:$MAVEN_HOME"
 #export PS1="\[\033[01;35m\]\u\[\033[01;30m\]@\[\033[01;31m\]\h\[\033[00m\]:\e[33;1m\w\e[0m\n\[\033[01;31m\]:~$ \[\033[00m\]"
 
 #Yellow command line $
-export PS1="\[\033[01;35m\]\u\[\033[01;30m\]@\[\033[01;31m\]\h\[\033[00m\]:\e[33;1m\w\e[0m\n\[\033[33;1m\]:~$ \[\033[00m\]"
+#export PS1="\[\033[01;35m\]\u\[\033[01;30m\]@\[\033[01;31m\]\h\[\033[00m\]:\e[33;1m\w\e[0m\n\[\033[33;1m\]:~$ \[\033[00m\]"
+
+export PS1="\[\033[01;35m\]\u\[\033[01;30m\]@\[\033[01;31m\]\h\[\033[00m\]:\e[7m\w\e[0m\n\e[30m:~$ "
+
 
 
 #When executing interactively, bash displays the primary prompt PS1 when it is ready to read a command, and the secondary prompt PS2 when it needs more input to complete a command.  Bash allows these prompt strings  to  be  customized  by
