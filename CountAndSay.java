@@ -17,6 +17,5 @@ class Solution {
             s=sb.toString();
         }
         return s;
-
     }
 }

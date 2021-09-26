@@ -9,7 +9,9 @@ class Solution {
         for(int l=n-1;l>=0;l-- ){
             for(int r=l;r<n;r++){
                 for(int i=l;i<=r;i++){
-                    dp[l][r]=Math.max(dp[l][r],nums[i] * (l>0?nums[l-1]:1)*(r==n-1? 1:nums[r+1] )   +   (l<=i-1?dp[l][i-1]:0) +(i+1<=r?dp[i+1][r]:0) );
+                    dp[l][r]=Math.max(dp[l][r],
+                            nums[i] * (l>0?nums[l-1]:1)*(r==n-1? 1:nums[r+1] )   
+                            + (l<=i-1?dp[l][i-1]:0) +(i+1<=r?dp[i+1][r]:0) );
                 }
             }
         }
