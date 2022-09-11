@@ -1,5 +1,6 @@
 class Solution {
     public int combinationSum4(int[] nums, int target) {
+<<<<<<< HEAD
         int result=0;
         if(nums==null||nums.length==0)
             return result;
@@ -16,6 +17,21 @@ class Solution {
         return dp[target];
     }
 
+=======
+        int n=nums.length;
+        int[][] dp=new int[n][n];
+        
+        for(int i=0;i<=target;i++){
+            for(int j=0;j<nums.length;j++){
+                if(dp[i][j-nums[i]]<=target){
+                    dp[i][j-nums[i]] + = dp[i][j];
+                }
+            }
+        }
+
+    }
+}
+>>>>>>> 0e3d8562d04613ffdc1b113431e603bb2673d872
 
     /*
 

@@ -45,8 +45,8 @@ class Trie {
         Node[] children;
         Node(char c){
             this.c = c;
-            isWord = false;
-            children = new Node[26];
+            this.isWord = false;
+            this.children = new Node[26];
         }
     }
 }

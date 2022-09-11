@@ -1,10 +1,10 @@
 # export PATH="$PATH:/Users/dhiraj/softwares/gradle-5.6.4/bin"
 # export SCRIPT_HOME=/Users/dhiraj/Documents/office/DNS/codechanges/helloworld.sh
-TERRAFORM_HOME=/Users/dhiraj/oracle/softwares/
-GO_HOME=/Users/dhiraj/oracle/softwares/go/bin
-ANT_HOME_BIN=/Users/dhiraj/oracle/softwares/apache-ant-1.7.1/bin
-ANT_HOME=/Users/dhiraj/oracle/softwares/apache-ant-1.7.1
-MAVEN_HOME=/Users/dhiraj/oracle/softwares/apache-maven-3.5.4/bin
+TERRAFORM_HOME=/Users/dhiraj/softwares/
+GO_HOME=/Users/dhiraj/softwares/go/bin
+ANT_HOME_BIN=/Users/dhiraj/softwares/apache-ant-1.7.1/bin
+ANT_HOME=/Users/dhiraj/softwares/apache-ant-1.7.1
+MAVEN_HOME=/Users/dhiraj/softwares/apache-maven-3.8.1/bin
 # This java home has been set for ant not to fail, actual java home is
 # /System/Library/Frameworks/JavaVM.framework/Versions/Current/Commands
 # which is symlinked from /usr/bin/java
@@ -32,10 +32,10 @@ export PATH="$PATH:$TERRAFORM_HOME:$GO_HOME:$MAVEN_HOME"
 #export PS1="\[\033[01;35m\]\u\[\033[01;30m\]@\[\033[01;31m\]\h\[\033[00m\]:\e[33;1m\w\e[0m\n\[\033[01;31m\]:~$ \[\033[00m\]"
 
 #Yellow command line $
-#export PS1="\[\033[01;35m\]\u\[\033[01;30m\]@\[\033[01;31m\]\h\[\033[00m\]:\e[33;9m\w\e[0m\n\[\033[33;9m\]:~$ \[\033[00m\]"
+#export PS1="\[\033[01;35m\]\u\[\033[01;30m\]@\[\033[01;31m\]\h\[\033[00m\]:\e[33;1m\w\e[0m\n\[\033[33;1m\]:~$ \[\033[00m\]"
 
+export PS1="\[\033[01;35m\]\u\[\033[01;30m\]@\[\033[01;31m\]\h\[\033[00m\]:\e[7m\w\e[0m\n\e[30m:~$ "
 
-export PS1="\[\033[01;35m\]\u\[\033[01;30m\]@\[\033[01;31m\]\h\[\033[00m\]:\e[30;7m\w\e[0m\n\[\033[30;9m\]:~$ \[\033[00m\]"
 
 #When executing interactively, bash displays the primary prompt PS1 when it is ready to read a command, and the secondary prompt PS2 when it needs more input to complete a command.  Bash allows these prompt strings  to  be  customized  by
 #   inserting a number of backslash-escaped special characters that are decoded as follows:

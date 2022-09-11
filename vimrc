@@ -62,8 +62,6 @@ set splitright " Split to the right side of the window"
 ""augroup END
 
 
-
-
 "Mode Settings
 
 ""let &t_SI.="\e[5 q" "SI = INSERT mode
@@ -74,7 +72,6 @@ set splitright " Split to the right side of the window"
 ""set ttimeoutlen=1
 ""set listchars=tab:>-,trail:~,extends:>,precedes:<,space:.
 ""set ttyfast
-
 
 "Cursor settings:
 
